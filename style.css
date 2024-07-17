@@ -1,0 +1,63 @@
+@font-face {
+    font-family: anurati;
+    src: url("Anurati-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: nothing;
+    src: url("nothing-font.ttf") format("opentype");
+}
+
+body {
+	/*
+background-image: url(bg.jpg);
+background-size: cover;*/
+background-color: #000;
+color: white;
+}
+
+h1 { 
+font-family: anurati;
+}
+
+/*
+ul.main {
+vertical-align: bottom;
+margin: 0;
+padding: 4 px;
+}
+ul.main li {
+display: inline;
+margin-right: 5 px;
+border: 2px solid #fff;
+border-radius: 5px;
+}
+*/
+
+.app {
+background-color: #161a1f;
+border: 1px solid #fff;
+border-radius: 20px;
+height: 660px;
+width: 400px;
+}
+
+.panel {
+	position: relative;
+	top: 490px;
+	left: 10px;
+
+	background-color: #1f1f1f;
+	border-radius: 15px;
+	width: 380px;
+}
+
+.panel button {
+	position: relative;
+	margin: 10px;
+	left: 13px;
+	height: 40px;
+	border-radius: 15px;
+	background-color: #708090;
+	color: white;
+	font-family: nothing;
+}
