@@ -6,6 +6,10 @@
     font-family: nothing;
     src: url("nothing-font.ttf") format("opentype");
 }
+@font-face {
+    font-family: spyagency;
+    src: url("spyagency.ttf") format("opentype");
+}
 
 body {
 	/*
@@ -17,6 +21,8 @@ color: white;
 
 h1 { 
 font-family: anurati;
+background-color: #1f1f1f;
+border-radius: 20px;
 }
 
 /*
@@ -34,6 +40,7 @@ border-radius: 5px;
 */
 
 .app {
+position: relative;
 background-color: #161a1f;
 border: 1px solid #fff;
 border-radius: 20px;
@@ -43,15 +50,26 @@ width: 400px;
 
 .panel {
 	position: relative;
-	top: 490px;
+	/*top: 490px;*/
+	top: 160px;
 	left: 10px;
 
 	background-color: #1f1f1f;
 	border-radius: 15px;
 	width: 380px;
 }
+img.coin {
+width: 300px;
+height: 300px;
+position: relative;
+/*top: 32px;
+left: 48px;*/
+border: 2px solid yellow;
+border-radius: 200px;
+}
 
 .panel button {
+	font-size: 10.5px;
 	position: relative;
 	margin: 10px;
 	left: 13px;
@@ -59,5 +77,23 @@ width: 400px;
 	border-radius: 15px;
 	background-color: #708090;
 	color: white;
-	font-family: nothing;
+	font-family: spyagency;
+}
+
+.prog {
+position: relative;
+top: 10px;
+font-size: 24px;
+font-family: spyagency;
+}
+.click {
+position: relative;
+top: 32px;
+left: 46px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
 }
