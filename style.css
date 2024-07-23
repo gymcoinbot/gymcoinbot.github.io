@@ -45,7 +45,8 @@ background-color: #161a1f;
 border: 1px solid #fff;
 border-radius: 20px;
 height: 660px;
-width: 400px;
+/*width: 400px;*/
+width: 18rem;
 }
 
 .panel {
@@ -56,11 +57,11 @@ width: 400px;
 
 	background-color: #1f1f1f;
 	border-radius: 15px;
-	width: 380px;
+	width: 270px;
 }
 img.coin {
-width: 300px;
-height: 300px;
+width: 200px;
+height: 200px;
 position: relative;
 /*top: 32px;
 left: 48px;*/
@@ -72,7 +73,7 @@ border-radius: 200px;
 	font-size: 10.5px;
 	position: relative;
 	margin: 10px;
-	left: 13px;
+	left: 2px;
 	height: 40px;
 	border-radius: 15px;
 	background-color: #708090;
@@ -89,7 +90,8 @@ font-family: spyagency;
 .click {
 position: relative;
 top: 32px;
-left: 46px;
+left: 38px;
+border-radius: 200px;
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
